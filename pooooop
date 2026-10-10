@@ -19041,13 +19041,6 @@ do
 end
 
 do
-	local v21 = v5:MakeBar({
-		Texts = { "PoopHub", "V5 New Release!", (os.date("%H:%M")) },
-		UseDivider = true,
-		Icon = result,
-		Size = UDim2.new(0, 350, 0, 30),
-	})
-
 	local v22 = v21:AddInfoWindow({
 		Plan = tostring(DCUS_Plan),
 		Expires = tostring(DCUS_Expires):gsub("T.*", ""),
