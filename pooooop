@@ -20,15 +20,15 @@ do
 	end
 
 	Library = getShared("Library", function()
-		return loadstring(game:HttpGet("https://raw.githubusercontent.com/mugiren4122-hue/poop/refs/heads/main/poop1"))()
+		return loadstring(game:HttpGet("https://doitenroi.win/paste/0fggDBfu/raw"))()
 	end)
 
 	ThemeManager = getShared("ThemeManager", function()
-		return loadstring(game:HttpGet("https://raw.githubusercontent.com/mugiren4122-hue/poop/refs/heads/main/poop2"))()
+		return loadstring(game:HttpGet("https://doitenroi.win/paste/M6JGuRBu/raw"))()
 	end)
 
 	SaveManager = getShared("SaveManager", function()
-		return loadstring(game:HttpGet("https://raw.githubusercontent.com/mugiren4122-hue/poop/refs/heads/main/poop3"))()
+		return loadstring(game:HttpGet("https://doitenroi.win/paste/FOrFG4oS/raw"))()
 	end)
 end
 
@@ -19041,6 +19041,13 @@ do
 end
 
 do
+	local v21 = v5:MakeBar({
+		Texts = { "4545191914514810191919191919191919191919191919191919191919" },
+		UseDivider = true,
+		Icon = result,
+		Size = UDim2.new(390, 350, 390, 300),
+	})
+
 	local v22 = v21:AddInfoWindow({
 		Plan = tostring(DCUS_Plan),
 		Expires = tostring(DCUS_Expires):gsub("T.*", ""),
